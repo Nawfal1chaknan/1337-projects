@@ -6,19 +6,17 @@
 /*   By: nchaknan <nchaknan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 16:55:11 by nchaknan          #+#    #+#             */
-/*   Updated: 2022/10/06 16:55:13 by nchaknan         ###   ########.fr       */
+/*   Updated: 2022/10/25 12:24:42 by nchaknan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<unistd.h>
+#include "libft.h"
 
-int ft_toupper(int c)
+int	ft_toupper(int c)
 {
-
-    if (c >= 'a' && c <= 'z')
-    {
-        return (c - 32);
-    }
-    return(c);
+	if (c >= 'a' && c <= 'z')
+	{
+		return (c - 32);
+	}
+	return (c);
 }

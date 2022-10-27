@@ -6,12 +6,11 @@
 /*   By: nchaknan <nchaknan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/10 17:47:28 by nchaknan          #+#    #+#             */
-/*   Updated: 2022/10/11 19:45:56 by nchaknan         ###   ########.fr       */
+/*   Updated: 2022/10/25 12:24:07 by nchaknan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include"libft.h"
+#include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {

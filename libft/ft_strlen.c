@@ -6,11 +6,11 @@
 /*   By: nchaknan <nchaknan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/29 16:35:23 by nchaknan          #+#    #+#             */
-/*   Updated: 2022/10/10 22:34:31 by nchaknan         ###   ########.fr       */
+/*   Updated: 2022/10/25 12:24:12 by nchaknan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {

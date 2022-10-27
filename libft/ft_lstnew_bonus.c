@@ -1,31 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*   ft_lstnew_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nchaknan <nchaknan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/03 13:05:00 by nchaknan          #+#    #+#             */
-/*   Updated: 2022/10/25 12:24:20 by nchaknan         ###   ########.fr       */
+/*   Created: 2022/10/23 15:26:57 by nchaknan          #+#    #+#             */
+/*   Updated: 2022/10/25 12:22:51 by nchaknan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strncmp(const char *s1, const char *s2, size_t n)
+t_list	*ft_lstnew(void *content)
 {
-	unsigned char	*str1;
-	unsigned char	*str2;
-	size_t			i;
+	t_list	*new;
 
-	str1 = (unsigned char *)s1;
-	str2 = (unsigned char *)s2;
-	i = 0;
-	while ((str1[i] || str2[i]) && (i < n))
-	{
-		if (str1[i] != str2[i])
-			return (str1[i] - str2[i]);
-		i++;
-	}
-	return (0);
+	new = (t_list *)malloc(sizeof(t_list));
+	if (!new)
+		return (NULL);
+	new->content = content;
+	new->next = NULL;
+	return (new);
 }

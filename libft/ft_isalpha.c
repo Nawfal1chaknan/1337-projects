@@ -6,11 +6,11 @@
 /*   By: nchaknan <nchaknan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/29 10:55:51 by nchaknan          #+#    #+#             */
-/*   Updated: 2022/10/10 19:24:28 by nchaknan         ###   ########.fr       */
+/*   Updated: 2022/10/25 12:22:24 by nchaknan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include "libft.h"
 
 int	ft_isalpha(int n)
 {

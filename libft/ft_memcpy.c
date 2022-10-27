@@ -6,11 +6,11 @@
 /*   By: nchaknan <nchaknan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 19:32:37 by nchaknan          #+#    #+#             */
-/*   Updated: 2022/10/10 22:14:05 by nchaknan         ###   ########.fr       */
+/*   Updated: 2022/10/25 12:23:08 by nchaknan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
